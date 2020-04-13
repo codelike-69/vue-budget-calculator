@@ -8,11 +8,6 @@ import VueCurrencyInput from 'vue-currency-input';
 import App from './App.vue';
 import 'semantic-ui-css/semantic.min.css';
 import store from './store/store';
-// import routes from './routes';
-import ExpenseItemList from './components/ExpenseItemList.vue';
-import AddExpense from './components/AddExpense.vue';
-import AddIncome from './components/AddIncome.vue';
-import BudgetView from './components/BudgetView.vue';
 import router from './router';
 
 Vue.config.productionTip = false;

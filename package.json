@@ -10,7 +10,6 @@
 	"dependencies": {
 		"@vue/cli-service-global": "^4.3.0",
 		"core-js": "^3.6.4",
-		"mobx": "^5.15.4",
 		"semantic-ui-css": "^2.4.1",
 		"semantic-ui-vue": "^0.10.1",
 		"vue": "^2.6.11",
@@ -36,11 +35,19 @@
 		"env": {
 			"node": true
 		},
-		"extends": [ "plugin:vue/essential", "eslint:recommended", "@vue/airbnb" ],
+		"extends": [
+			"plugin:vue/essential",
+			"eslint:recommended",
+			"@vue/airbnb"
+		],
 		"parserOptions": {
 			"parser": "babel-eslint"
 		},
 		"rules": {}
 	},
-	"browserslist": [ "> 1%", "last 2 versions", "not dead" ]
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not dead"
+	]
 }

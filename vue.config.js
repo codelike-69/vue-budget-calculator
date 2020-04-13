@@ -1,5 +1,4 @@
-/* eslint-disable no-tabs */
-/* eslint-disable indent */
+/* eslint-disable */
 module.exports = {
 	configureWebpack: {
 		// default source maps don't seem to work correctly
