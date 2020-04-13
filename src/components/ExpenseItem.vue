@@ -12,6 +12,8 @@
 
 <script>
 
+/* this component is not used ATM */
+
 export default {
   name: 'ExpenseItem',
   props: {

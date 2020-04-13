@@ -13,8 +13,8 @@
 </template>
 
 <script>
+/* this component is not used ATM */
 import ExpenseItem from './ExpenseItem.vue';
-// import { mapState } from 'vuex'
 
 export default {
   name: 'ExpenseItemList',
